@@ -52,7 +52,7 @@ set smartindent
 set nu
 set relativenumber
 
-" Remap escape key
+" Remap escape key to easier return from insert mode
 imap jj <ESC>
 
 " Disable any bell-sounds if there should be any
@@ -66,3 +66,5 @@ set hlsearch
 set ignorecase
 set incsearch
 
+" Remap q to CTRL-V as this allows entering block visual mode
+nnoremap q <c-v>
