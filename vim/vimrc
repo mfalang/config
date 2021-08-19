@@ -52,6 +52,17 @@ set smartindent
 set nu
 set relativenumber
 
+" Remap escape key
+imap jj <ESC>
+
 " Disable any bell-sounds if there should be any
 set belloff=all
+
+" Ebabke syntax highlighting
+syntax on
+
+" Search options
+set hlsearch
+set ignorecase
+set incsearch
 
