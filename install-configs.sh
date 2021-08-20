@@ -18,7 +18,7 @@ echo -e "---------- Installing vimrc file ----------"
 cp ${REPO_DIR}/vim/vimrc ${HOME_DIR}/.vimrc
 echo -e "Ok\n"
 
-echo -e "---------- Installing git aliases ----------"
+echo -e "---------- Setting up git ----------"
 ${REPO_DIR}/git/git-setup.sh
 echo -e "Ok\n"
 
