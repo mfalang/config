@@ -2,7 +2,7 @@
 
 echo -e "========== Installing config files ==========\n"
 
-REPO_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/.."
+REPO_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 HOME_DIR="/home/${USER}"
 
 echo -e "---------- Installing bashrc file ----------"
@@ -19,7 +19,7 @@ cp ${REPO_DIR}/vim/vimrc ${HOME_DIR}/.vimrc
 echo -e "Ok\n"
 
 echo -e "---------- Installing git aliases ----------"
-${REPO_DIR}/git/git-aliases.sh
+${REPO_DIR}/git/git-setup.sh
 echo -e "Ok\n"
 
 echo -e "========== Finished =========="
