@@ -128,5 +128,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PS1=$(cat "/home/martinf/.config/ps1")
+PS1=$(cat "/home/${USER}/.config/ps1")
 source ~/.config/ps1
